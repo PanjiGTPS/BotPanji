@@ -37,7 +37,7 @@ const samih = JSON.parse(fs.readFileSync('./A187ID/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
             + 'FN:Panji Briant\n' // MENDING LU TOBAT SU!
-            + 'ORG:Creator NOEERBOT;\n' // KASIH CREDITS GUA SU!!!
+            + 'ORG:Creator Panji BOT;\n' // KASIH CREDITS GUA SU!!!
             + 'TEL;type=CELL;type=VOICE;waid=6287869164526:+62 878-6916-4526\n' // JANGAN KEK BABI SU
             + 'END:VCARD' // ARIS187 ID
 prefix = '!'
@@ -49,11 +49,11 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '👾AR15BOT👾', // TOBAT SU ASU
+    A187: '👾Panji BotT👾', // TOBAT SU ASU
     instagram: 'https://instagram.com/_panji_gtps', // INFO JANGAN DI UBAH
     nomer: 'wa.me/6287869164526', // INFO SU JNGAN DI UBAH
     youtube: 'https://www.youtube.com/channel/UCrK2cZG5gFvzOBI7iR0PXPA', // KINTIL
-    whatsapp: 'https://chat.whatsapp.com/B5IlSpSOUOZ2OJpt6BaZwf', // BABI
+    whatsapp: 'https://www.youtube.com/channel/UCrK2cZG5gFvzOBI7iR0PXPA', // BABI
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }

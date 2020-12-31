@@ -53,7 +53,7 @@ const config = {
     instagram: 'https://instagram.com/_panji_gtps', // INFO JANGAN DI UBAH
     nomer: 'wa.me/6287869164526', // INFO SU JNGAN DI UBAH
     youtube: 'https://www.youtube.com/channel/UCrK2cZG5gFvzOBI7iR0PXPA', // KINTIL
-    whatsapp: 'https://www.youtube.com/channel/UCrK2cZG5gFvzOBI7iR0PXPA', // BABI
+    whatsapp: 'https://chat.whatsapp.com/C8UEwoqdLlc2p2wL3PfNPb', // BABI
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
